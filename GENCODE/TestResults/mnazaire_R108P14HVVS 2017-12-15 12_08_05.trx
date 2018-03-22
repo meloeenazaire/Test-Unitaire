@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="76bceab1-2e97-415f-9e5d-a33eb659f350" name="mnazaire@R108P14HVVS 2017-12-15 12:08:05" runUser="SIO\mnazaire" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5ec3c499-e80f-48f0-970b-6759f4190518">
+    <Description>Il s'agit des paramètres de test par défaut pour une série de tests locale.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mnazaire_R108P14HVVS 2017-12-15 12_08_05">
+      <DeploymentItem filename="C:\VSProjetNazaire\GENCODE\GENCODE\bin\Debug\GENCODE.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-12-15T12:08:05.2937768+01:00" queuing="2017-12-15T12:08:05.3406506+01:00" start="2017-12-15T12:08:05.3406506+01:00" finish="2017-12-15T12:08:05.4812711+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ToStringTest" storage="c:\vsprojetnazaire\gencode\testean13\bin\debug\testean13.dll" id="fc088f0c-0d88-c0a7-85e1-7f86ad18f642">
+      <Execution id="f2d56578-56e9-496d-bffb-f248b79b98c9" />
+      <TestMethod codeBase="C:/VSProjetNazaire/GENCODE/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringTest" />
+    </UnitTest>
+    <UnitTest name="CleTest" storage="c:\vsprojetnazaire\gencode\testean13\bin\debug\testean13.dll" id="c52f5332-71ff-335c-862c-1d556b4a6abc">
+      <Execution id="819c1a09-a626-4b18-abf6-41417c4f58e6" />
+      <TestMethod codeBase="C:/VSProjetNazaire/GENCODE/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CleTest" />
+    </UnitTest>
+    <UnitTest name="ResteTest" storage="c:\vsprojetnazaire\gencode\testean13\bin\debug\testean13.dll" id="da35aeb7-e1df-eeed-6b2d-3a17dd8140d8">
+      <Execution id="2813b5de-1d1a-4b84-8a25-601cc216853d" />
+      <TestMethod codeBase="C:/VSProjetNazaire/GENCODE/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResteTest" />
+    </UnitTest>
+    <UnitTest name="Ean13ConstructorTest" storage="c:\vsprojetnazaire\gencode\testean13\bin\debug\testean13.dll" id="e9163f9d-c849-b6ad-20b7-06b88564ed77">
+      <Execution id="9467f36f-eaa8-4e25-9555-02147c01007d" />
+      <TestMethod codeBase="C:/VSProjetNazaire/GENCODE/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Ean13ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="PoidsImpairTest" storage="c:\vsprojetnazaire\gencode\testean13\bin\debug\testean13.dll" id="3b00af88-da7f-9480-e7c9-bc6616f14c9e">
+      <Execution id="fae3350b-d4f3-477d-a42f-8b89c6f9ed31" />
+      <TestMethod codeBase="C:/VSProjetNazaire/GENCODE/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PoidsImpairTest" />
+    </UnitTest>
+    <UnitTest name="PoidsPairTest" storage="c:\vsprojetnazaire\gencode\testean13\bin\debug\testean13.dll" id="0ca3dafd-72c1-0bd1-f5ec-d20609911a3b">
+      <Execution id="45c94651-e927-4ff2-b21d-3c6392cc1c6d" />
+      <TestMethod codeBase="C:/VSProjetNazaire/GENCODE/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PoidsPairTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0ca3dafd-72c1-0bd1-f5ec-d20609911a3b" executionId="45c94651-e927-4ff2-b21d-3c6392cc1c6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b00af88-da7f-9480-e7c9-bc6616f14c9e" executionId="fae3350b-d4f3-477d-a42f-8b89c6f9ed31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c52f5332-71ff-335c-862c-1d556b4a6abc" executionId="819c1a09-a626-4b18-abf6-41417c4f58e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da35aeb7-e1df-eeed-6b2d-3a17dd8140d8" executionId="2813b5de-1d1a-4b84-8a25-601cc216853d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9163f9d-c849-b6ad-20b7-06b88564ed77" executionId="9467f36f-eaa8-4e25-9555-02147c01007d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc088f0c-0d88-c0a7-85e1-7f86ad18f642" executionId="f2d56578-56e9-496d-bffb-f248b79b98c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="45c94651-e927-4ff2-b21d-3c6392cc1c6d" testId="0ca3dafd-72c1-0bd1-f5ec-d20609911a3b" testName="PoidsPairTest" computerName="R108P14HVVS" duration="00:00:00.0086220" startTime="2017-12-15T12:08:05.3406506+01:00" endTime="2017-12-15T12:08:05.4656466+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45c94651-e927-4ff2-b21d-3c6392cc1c6d">
+    </UnitTestResult>
+    <UnitTestResult executionId="fae3350b-d4f3-477d-a42f-8b89c6f9ed31" testId="3b00af88-da7f-9480-e7c9-bc6616f14c9e" testName="PoidsImpairTest" computerName="R108P14HVVS" duration="00:00:00.0002075" startTime="2017-12-15T12:08:05.4656466+01:00" endTime="2017-12-15T12:08:05.4656466+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fae3350b-d4f3-477d-a42f-8b89c6f9ed31">
+    </UnitTestResult>
+    <UnitTestResult executionId="819c1a09-a626-4b18-abf6-41417c4f58e6" testId="c52f5332-71ff-335c-862c-1d556b4a6abc" testName="CleTest" computerName="R108P14HVVS" duration="00:00:00.0002864" startTime="2017-12-15T12:08:05.4656466+01:00" endTime="2017-12-15T12:08:05.4656466+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="819c1a09-a626-4b18-abf6-41417c4f58e6">
+    </UnitTestResult>
+    <UnitTestResult executionId="2813b5de-1d1a-4b84-8a25-601cc216853d" testId="da35aeb7-e1df-eeed-6b2d-3a17dd8140d8" testName="ResteTest" computerName="R108P14HVVS" duration="00:00:00.0001417" startTime="2017-12-15T12:08:05.4656466+01:00" endTime="2017-12-15T12:08:05.4812711+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2813b5de-1d1a-4b84-8a25-601cc216853d">
+    </UnitTestResult>
+    <UnitTestResult executionId="9467f36f-eaa8-4e25-9555-02147c01007d" testId="e9163f9d-c849-b6ad-20b7-06b88564ed77" testName="Ean13ConstructorTest" computerName="R108P14HVVS" duration="00:00:00.0004201" startTime="2017-12-15T12:08:05.4812711+01:00" endTime="2017-12-15T12:08:05.4812711+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9467f36f-eaa8-4e25-9555-02147c01007d">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2d56578-56e9-496d-bffb-f248b79b98c9" testId="fc088f0c-0d88-c0a7-85e1-7f86ad18f642" testName="ToStringTest" computerName="R108P14HVVS" duration="00:00:00.0082663" startTime="2017-12-15T12:08:05.4812711+01:00" endTime="2017-12-15T12:08:05.4812711+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2d56578-56e9-496d-bffb-f248b79b98c9">
+      <Output>
+        <ErrorInfo>
+          <Message>Échec de Assert.AreEqual. Attendu : &lt;4719-5120-0288-9&gt;, Réel : &lt;0-9&gt;. </Message>
+          <StackTrace>   à TestEan13.Ean13Test.ToStringTest() dans C:\VSProjetNazaire\GENCODE\TestEan13\Ean13Test.cs:ligne 159
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

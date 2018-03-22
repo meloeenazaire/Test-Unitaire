@@ -1,0 +1,9 @@
+C:\VSProjetNazaire\GENCODE\TestEan13\bin\Debug\TestEan13.dll
+C:\VSProjetNazaire\GENCODE\TestEan13\bin\Debug\TestEan13.pdb
+C:\VSProjetNazaire\GENCODE\TestEan13\bin\Debug\GENCODE.exe
+C:\VSProjetNazaire\GENCODE\TestEan13\bin\Debug\GENCODE.pdb
+C:\VSProjetNazaire\GENCODE\TestEan13\bin\Debug\GENCODE_Accessor.exe
+C:\VSProjetNazaire\GENCODE\TestEan13\bin\Debug\GENCODE_Accessor.pdb
+C:\VSProjetNazaire\GENCODE\TestEan13\obj\Debug\ResolveAssemblyReference.cache
+C:\VSProjetNazaire\GENCODE\TestEan13\obj\Debug\TestEan13.dll
+C:\VSProjetNazaire\GENCODE\TestEan13\obj\Debug\TestEan13.pdb

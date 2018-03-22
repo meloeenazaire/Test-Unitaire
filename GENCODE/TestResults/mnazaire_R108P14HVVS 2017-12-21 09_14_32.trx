@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4170aa10-819b-475c-90cd-48a3f384062a" name="mnazaire@R108P14HVVS 2017-12-21 09:14:32" runUser="SIO\mnazaire" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5ec3c499-e80f-48f0-970b-6759f4190518">
+    <Description>Il s'agit des paramètres de test par défaut pour une série de tests locale.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mnazaire_R108P14HVVS 2017-12-21 09_14_32">
+      <DeploymentItem filename="C:\VSProjetNazaire\GENCODE\GENCODE\bin\Debug\GENCODE.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-12-21T09:14:32.7899475+01:00" queuing="2017-12-21T09:14:32.8211981+01:00" start="2017-12-21T09:14:32.8211981+01:00" finish="2017-12-21T09:14:32.9774511+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CleTest" storage="c:\vsprojetnazaire\gencode\testean13\bin\debug\testean13.dll" id="c52f5332-71ff-335c-862c-1d556b4a6abc">
+      <Execution id="bff782af-2364-45be-b64a-05bb96400892" />
+      <TestMethod codeBase="C:/VSProjetNazaire/GENCODE/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CleTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c52f5332-71ff-335c-862c-1d556b4a6abc" executionId="bff782af-2364-45be-b64a-05bb96400892" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bff782af-2364-45be-b64a-05bb96400892" testId="c52f5332-71ff-335c-862c-1d556b4a6abc" testName="CleTest" computerName="R108P14HVVS" duration="00:00:00.0346624" startTime="2017-12-21T09:14:32.8211981+01:00" endTime="2017-12-21T09:14:32.9462005+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bff782af-2364-45be-b64a-05bb96400892">
+      <Output>
+        <ErrorInfo>
+          <Message>La méthode de test TestEan13.Ean13Test.CleTest a levé une exception : 
+System.Exception: Un code Ean 13 doit être un tableau de 12 entiers</Message>
+          <StackTrace>    à GENCODE.Ean13..ctor(Int32[] ean13) dans C:\VSProjetNazaire\GENCODE\GENCODE\Ean13.cs:ligne 16
+   à TestEan13.Ean13Test.CleTest() dans C:\VSProjetNazaire\GENCODE\TestEan13\Ean13Test.cs:ligne 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

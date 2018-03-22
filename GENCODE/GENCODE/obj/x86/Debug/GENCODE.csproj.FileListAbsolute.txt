@@ -1,0 +1,5 @@
+C:\VSProjetNazaire\GENCODE\GENCODE\bin\Debug\GENCODE.exe
+C:\VSProjetNazaire\GENCODE\GENCODE\bin\Debug\GENCODE.pdb
+C:\VSProjetNazaire\GENCODE\GENCODE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VSProjetNazaire\GENCODE\GENCODE\obj\x86\Debug\GENCODE.exe
+C:\VSProjetNazaire\GENCODE\GENCODE\obj\x86\Debug\GENCODE.pdb
