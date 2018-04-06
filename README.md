@@ -24,3 +24,4 @@ Dans le système d'identification des produits par code barre, un code est une s
         
 ### Le résultat des tests est affiché ici pour chaque méthode
 
+![Capturegencode.png](https://github.com/meloeenazaire/Test-Unitaire/blob/master/Capturegencode.PNG)
